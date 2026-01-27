@@ -1,0 +1,14 @@
+function pickUpPizza() {
+  
+  console.log("Pizza is ready! Driving to the store to pick it up.");
+}
+function orderPizza(callback) {
+   
+  console.log("Placing the pizza order...");
+
+    console.log("Pizza is cooked!");
+  
+    callback();
+}
+orderPizza(pickUpPizza);
+console.log("I'm not waiting at the store. I'm at home, coding.");
