@@ -1,3 +1,10 @@
+A callback function in JavaScript is a function passed as an argument to another function.
+This allows the receiving function, often called a higher-order function, 
+to execute the callback function at a specific point during its operation, 
+typically after a particular task is completed. 
+
+
+
 function pickUpPizza() {
   
   console.log("Pizza is ready! Driving to the store to pick it up.");
