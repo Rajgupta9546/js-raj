@@ -11,4 +11,9 @@ console.log(1 / 0);
 console.log(-1 / 0);         
 console.log(typeof Infinity); 
 
+console.log("hello" / 2);    
+console.log(Math.sqrt(-1));  
+console.log(typeof NaN);     
+
+
 
