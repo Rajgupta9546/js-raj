@@ -15,5 +15,9 @@ console.log("hello" / 2);
 console.log(Math.sqrt(-1));  
 console.log(typeof NaN);     
 
+let price = 19.991234;
+console.log(price.toFixed(2));
 
+let n = 123.456;
+console.log(n.toPrecision(4));
 
