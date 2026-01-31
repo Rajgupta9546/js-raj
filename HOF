@@ -1,4 +1,4 @@
-Higher Order Function
+Q - Higher Order Function
 Higher-order functions (HOFs) in JavaScript are functions that can accept other functions as arguments, return functions, or both. 
 This capability allows for more flexible, reusable, and modular code, making HOFs essential in functional programming.
 
@@ -10,7 +10,7 @@ function callbackFunction() {
    console.log("Executing the callback function...");
 }
 higherOrderFunction(callbackFunction);
-----------------------------------------------------------------------
+--------------------------------------------------------------------
 //def 1: a function which takes another function as a parameter
 //a -> HOF
 //b -> callback function
